@@ -4,10 +4,10 @@
 Ez az alkalmazás egy **AI-alapú chatbot**, amely lehetővé teszi a felhasználók számára, hogy híres karakterekkel és személyiségekkel folytassanak beszélgetéseket. A rendszer egyedi kontextusokat használ, így minden karakter a saját jellegzetes stílusában és tudásával kommunikál.  
 
 ## Főbb funkciók  
-- **Karakterválasztás** – A felhasználók kedvenc karaktereiket választhatják ki (pl. Batman, Yoda, Einstein).  
+- **Karakterválasztás** – A felhasználók kedvenc karaktereiket választhatják ki egy előre definiált karakterlistából (pl. Batman, Yoda, Einstein).  
 - **Személyre szabott AI válaszok** – A chatbot az adott karakter egyedi beszédstílusát és tudását tükrözi.  
-- **Beszélgetési előzmények tárolása** – Lehetőség a korábbi interakciók visszanézésére.  
-- **Felhasználói fiókok** – Bejelentkezés után személyre szabott élmény és adatmentés biztosított.  
+- **Beszélgetési előzmények tárolása** – Lehetőség a korábbi interakciók visszaolvasására.  
+- **Felhasználói fiókok** – Regisztráció (email + jelszó / Google OAuth), valamint bejelentkezés után személyre szabott élmény és adatmentés biztosított.  
 - **Modern, reszponzív felület** – Letisztult, könnyen kezelhető UI a zavartalan élményért.  
 
 ## Technológiai stack  
@@ -26,7 +26,7 @@ A háttérrendszer megbízható és skálázható architektúrára épül:
 
 ### Adatbázis  
 Az adatok hatékony tárolására és kezelésére a következő megoldások állnak rendelkezésre:  
-- **MongoDB** vagy **PostgreSQL**
+- **MongoDB**, MongoDB Atlas-on hostolva.
 - **Eloquent ORM** – egyszerű és intuitív adatbázis-kezelés Laravel környezetben.  
 
 ### Mesterséges intelligencia  
