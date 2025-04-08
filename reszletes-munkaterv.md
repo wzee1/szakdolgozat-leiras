@@ -29,7 +29,7 @@
     -   Google OAuth beállítása: REST API végpontok létrehozása, OAuth-hoz tartozó frontend komponensek elkészítése.
     -   Self-Service Password Reset: a felhasználóknak lehetősége lesz saját jelszavuk megváltoztatásához.
     -   Fiók törlése: a felhasználóknak lehetősége lesz törölni fiókjukat.
-    -   Kétfaktoros authentikáció implementálása.
+    -   Kétfaktoros autentikáció implementálása.
 
 **5. hónap: Karakterválasztás és Beszélgetési Felület Alapjai**
 
